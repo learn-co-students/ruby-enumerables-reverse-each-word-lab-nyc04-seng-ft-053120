@@ -6,8 +6,8 @@ def reverse_each_word(string)
   #   new << word.reverse
   # end
   # new.join(' ')
-new = []
-string.split.collect {|word| new << word.reverse }
-new.join(" ")
+
+string.split.collect {|word| word.reverse }.join(' ')
+
 
 end
